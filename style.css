@@ -9,7 +9,7 @@
 body {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 1.8rem;
-	background-color: azure;
+	background-color: seashell;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
