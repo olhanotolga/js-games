@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock, Paper, Scissors</title>
+	<link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+
+<body>
+	<header>
+		<h1>Rock, Paper, Scissors</h1>
+		<button id="startBtn">start game</button>
+		<div class="score">
+			<p><span>Computer</span> : <span>Player</span></p>
+			<p><span class="score-computer">0</span> : <span class="score-player">0</span></p>
+		</div>
+		<button id="resetBtn">reset game</button>
+	</header>
+
+	<main class="game rock-paper-scissors">
+		<section class="computer">
+			<h2>Computer</h2>
+			<img class="r-p-s-icon fist" src="./images/strong.png" alt="closed fist">
+		</section>
+		
+		<section class="result">
+			<p class="result-display"></p>
+		</section>
+
+		<section class="player">
+			<h2>Player (You)</h2>
+			<div class="choices">
+				<div class="player-choice">
+					<img class="r-p-s-icon" src="./images/cave.png" alt="ROCK">
+					ROCK
+					<!-- <button class="rpsButton">rock</button> -->
+				</div>
+				<div class="player-choice">
+					<img class="r-p-s-icon" src="./images/paper.png" alt="PAPER">
+					PAPER
+					<!-- <button class="rpsButton">paper</button> -->
+				</div>
+				<div class="player-choice">
+					<img class="r-p-s-icon" src="./images/scissors.png" alt="SCISSORS">
+					SCISSORS
+					<!-- <button class="rpsButton">scissors</button> -->
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<small>
+			Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a
+				href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+		</small>
+	</footer>
+
+	<script src="./rock-paper-scissors.js"></script>
+</body>
+
+</html>
