@@ -2,7 +2,7 @@
 
 ## Description
 
-Nothing fancy, just a classic with a monospacy feel to it and some minimal CSS animations.
+Nothing fancy, just a classic with monospacey feel to it and some minimal CSS animations.
 
 ## Screenshot
 
