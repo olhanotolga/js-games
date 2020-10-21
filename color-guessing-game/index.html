@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <span>The great</span>
+            <span id="colorDisplay">RGB</span>
+            <span>color game</span>
+        </h1>
+        <nav id="stripe">
+            <button id="reset">New colors</button>
+            <p id="message" class="none"></p>
+            <button id="howto">&quest;</button>
+            <div>
+                <button class="mode">Easy</button>
+                <button class="mode selected">Hard</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="rules" class="none">
+        <button id="close">&times;</button>
+        <p>A random RGB color code is displayed in the header.</p>
+        <p>Click on a square with a matching color.</p>
+        <p>If you miss, the square will disappear. You can try again with the remaining ones.</p>
+        <p>Once you've guessed, both the squares and the RGB code background turn the respective color.</p>
+        <p><span class="button-info">NEW COLORS</span> or <span class="button-info">PLAY AGAIN?</span> &mdash; start the game anew.</p>
+        <p><span class="button-info">EASY</span> / <span class="button-info">HARD</span> &mdash; switch between modes.</p>
+    </section>
+    
+    <main id="color-squares">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </main>
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
