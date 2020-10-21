@@ -7,8 +7,8 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 1.6rem;
-	font-family: sans-serif;
+    font-size: 1.8rem;
+	font-family: monospace;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -33,4 +33,14 @@ main {
 	background-color: cornsilk;
 	border-radius: 2rem;
 	padding: 2rem;
+}
+.game-card a {
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto auto;
+
+}
+
+.game-card img {
+	width: 100%;
 }
