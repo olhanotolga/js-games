@@ -14,4 +14,4 @@ HTML, CSS, JavaScript.
 
 ## Link
 
-[Rock, Paper, Scissors on GitHub Pages](https://olhanotolga.github.io/rock-paper-scissors/)
+[Rock, Paper, Scissors on GitHub Pages](https://olhanotolga.github.io/js-games/rock-paper-scissors)

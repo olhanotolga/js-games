@@ -2,6 +2,6 @@
 
 A collection of games made with JavaScript (also HTML and CSS/SCSS).
 
-* [Rock, Paper, Scissors](./rock-paper-scissors/index.html)
-* [Color Guessing Game]()
-* [Pixel Artboard]()
+* [Rock, Paper, Scissors](https://olhanotolga.github.io/js-games/rock-paper-scissors)
+* [Color Guessing Game](./#)
+* [Pixel Artboard](./#)
