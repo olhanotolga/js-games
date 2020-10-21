@@ -1,0 +1,36 @@
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.6rem;
+	font-family: sans-serif;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+header {
+	padding: 2rem;
+}
+
+main {
+	flex: 1 1 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 2rem;
+}
+
+.game-card {
+	background-color: cornsilk;
+	border-radius: 2rem;
+	padding: 2rem;
+}
